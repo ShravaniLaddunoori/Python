@@ -9,4 +9,3 @@ if (x==rev):
     print('%d is palindrome number'%x)
 else:
     print('%d is not palindrome number'%x)
-
