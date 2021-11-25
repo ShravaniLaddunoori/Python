@@ -1,11 +1,15 @@
+result=i = 0
 num = int(input('enter a number:'))
-x=num
-rev = 0
+x = num
+temp = num
 while num!=0:
-    rem = num%10
-    rev = rev*10 + rem
     num = num//10
-if (x==rev):
+    i = i+1
+while temp!=0:
+    num = temp%10
+    result = result+pow(num,i)
+    temp = temp//10
+if (x==result):
     print('%d is armstrong number'%x)
 else:
     print('%d is not armstrong number'%x)
