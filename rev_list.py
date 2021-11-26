@@ -1,0 +1,5 @@
+input_list = input('Enter list numbers:')
+input_list = list(input_list)
+print('\nInput list:{0}'.format(input_list))
+print('Reversed list:')
+print(list(input_list[::-1]))
